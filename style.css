@@ -88,8 +88,8 @@ body {
   color: white;
   z-index: 1;
 }
-.navbar p{
-  color:  #2196f3;
+.navbar p, .mobnav p{
+  color:#2196f3;
 }
 
 nav ul {
@@ -470,8 +470,15 @@ a {
     display: none;
   }
 }
-a:hover {
+a:hover, .contact__icons i:hover, .contact__icons p:hover {
   color: #2196f3;
+}
+a.btn.btn:hover{
+  background-color: #2196f3;
+}
+.hero-img:hover, .card-img-top:hover, .about-img:hover, .navbar p:hover, .mobnav p:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 h3 {
   margin: 1rem 0;
